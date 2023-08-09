@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+
+}
+html,body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+body{
+    text-align: center;
+
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) ;
+}
+#random{
+    display: block;
+    margin-left: 43%;
+    margin-top: 10px;
+    padding: 10px;
+}
