@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+//part1 reverse word without reverse fun
+
+var x=prompt("Enter Word ");
+    var arr1=x.split("");
+    var arr2=[];
+    for(let ele of arr1 ){
+        arr2.unshift(ele);
+    }
+    console.log(arr2.join(""));
+
+
+
+
+//part2 return functions return in array
+
+function calculator(num1 , num2) { 
+    let arr=[];
+    function sum() {
+      arr.push( num1 + num2)
+      
+    }
+    function sub() {
+        arr.push( num1 - num2)
+
+    }
+    function mul() {
+        arr.push( num1 * num2)
+
+
+    }
+    function div() {
+      arr.push( num1 / num2)
+       
+    }
+    sum()
+    sub()
+    mul()
+    div()
+    return arr
+}
+
+
+ console.log(calculator(Number(prompt("Enter Fnum ")),
+Number( prompt("Enter Snum"))))
+ 
+
+
+
+
+
+    </script>
+</body>
+</html>
